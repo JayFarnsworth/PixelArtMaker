@@ -1,0 +1,19 @@
+{
+  "name": "version-2",
+  "version": "1.0.0",
+  "description": "Use Javascript to build a basic calculator using the provided HTML and CSS. You'll only need to edit app.js",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jay Farnsworth",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayFarnsworth/interactive-page.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JayFarnsworth/interactive-page/issues"
+  },
+  "homepage": "https://github.com/JayFarnsworth/interactive-page#readme"
+}
