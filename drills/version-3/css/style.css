@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://icdn2.digitaltrends.com/image/super-mario-bros-5-1280x800.jpg?ver=1");
+}
+.logo {
+  margin: 4vh;
+  width: 400px;
+  height: auto;
+}
+.brushlogo {
+  width: 150px;
+  height: auto;
+  margin: 10px;
+}
+.white-background {
+  width: 600px;
+  height: 100vh;
+  position: absolute;
+  z-index: 0;
+  background-color: white;
+  border: 6px solid black;
+  border-radius: 15px;
+  margin-left: 25vw;
+}
+.container {
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  z-index: 1;
+}
+#canvas .square {
+  width: 50px;
+  height: 50px;
+  float: left;
+  border: 1px solid black;
+  z-index: 2;
+}
+.colors {
+  margin-left: 5vw;
+  width: 30vw;
+}
+#palette .color {
+  margin: 0 auto;
+  width: 3vw;
+  height: 3vw;
+  float: left;
+  border: 1px solid black;
+}
+.creator {
+  width: 20vw;
+  height: auto;
+  margin-top: 4vh;
+  margin-left: 9vw;
+  display: flex;
+}
+.erase {
+  margin-top: 2vh;
+  height: 3vh;
+  width: auto;
+}
