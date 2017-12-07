@@ -1,6 +1,8 @@
 var brush;
-
-
+var eraser = document.getElementsByClassName("erase")[0];
+eraser.addEventListener('click', ()=>{
+  brush = 'white';
+})
 function createCanvas() {
   for (var i = 0; i < 100; i++) {
     newSquare = document.createElement('div');
